@@ -1,0 +1,39 @@
+# Generated simulation/build directories
+build/
+work/
+simv*
+csrc/
+*.vpd
+*.vcd
+ucli.key
+
+# Tool logs and command transcripts
+*.log
+*.logv
+*.jou
+*.rpt
+*.rep
+
+# Generated implementation output
+output/
+rpt/
+log/
+logs/
+svdb/
+dbs/
+*.enc
+*.enc.dat
+*.gds
+*.gds.gz
+*.spef
+*.sdf
+*.db
+*.sdf.X
+
+# Local analysis/package scratch
+*_inspect/
+pkg_*/
+__pycache__/
+
+# Keep generated archives out of source control by default.
+*.zip

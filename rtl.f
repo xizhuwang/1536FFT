@@ -1,0 +1,11 @@
+01_RTL/src/CHIP.v
+01_RTL/src/Top_PureDIT.v
+01_RTL/src/sram512x45_sp.v
+01_RTL/src/sram128x64_sp.v
+01_RTL/src/fft512_dit_sdf_core.v
+01_RTL/src/fft512_dit_sdf_stage.v
+01_RTL/src/radix3_back_end.v
+01_RTL/src/complex_mul_q14.v
+01_RTL/src/quantize_q8_symmetric.v
+01_RTL/src/twiddle512_q14_rom.v
+01_RTL/src/twiddle1536_q14_rom.v

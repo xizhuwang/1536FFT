@@ -1,0 +1,10 @@
+./CHIP.v
+./Top_PureDIT.v
+./complex_mul_q14.v
+./fft512_dit_sdf_core.v
+./fft512_dit_sdf_stage.v
+./quantize_q8_symmetric.v
+./radix3_back_end.v
+./sram512x45_sp.v
+./twiddle1536_q14_rom.v
+./twiddle512_q14_rom.v

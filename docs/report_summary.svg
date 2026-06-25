@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="1536 FFT public report summary">
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .card { fill: #ffffff; stroke: #d5dbe3; stroke-width: 2; rx: 10; }
+      .ok { fill: #e8f6ee; stroke: #3a8757; stroke-width: 2; rx: 10; }
+      .warn { fill: #fff7e6; stroke: #b88419; stroke-width: 2; rx: 10; }
+      .title { font-family: Arial, Helvetica, sans-serif; fill: #17212b; font-size: 24px; font-weight: 700; }
+      .label { font-family: Arial, Helvetica, sans-serif; fill: #44515c; font-size: 14px; }
+      .value { font-family: Arial, Helvetica, sans-serif; fill: #17212b; font-size: 27px; font-weight: 700; }
+      .note { font-family: Arial, Helvetica, sans-serif; fill: #4d5966; font-size: 14px; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="980" height="360"/>
+  <text class="title" x="34" y="44">Public Verification Snapshot</text>
+  <rect class="ok" x="35" y="82" width="205" height="92"/>
+  <text class="label" x="58" y="116">Functional SNR</text>
+  <text class="value" x="58" y="151">34.73 dB</text>
+  <rect class="ok" x="270" y="82" width="205" height="92"/>
+  <text class="label" x="293" y="116">Throughput</text>
+  <text class="value" x="293" y="151">416.27 MS/s</text>
+  <rect class="ok" x="505" y="82" width="205" height="92"/>
+  <text class="label" x="528" y="116">Output Count</text>
+  <text class="value" x="528" y="151">15,360</text>
+  <rect class="ok" x="740" y="82" width="205" height="92"/>
+  <text class="label" x="763" y="116">Quality Target</text>
+  <text class="value" x="763" y="151">&gt; 30 dB</text>
+  <rect class="card" x="35" y="210" width="440" height="92"/>
+  <text class="label" x="58" y="244">FFT size</text>
+  <text class="value" x="58" y="279">1536 complex points</text>
+  <rect class="warn" x="505" y="210" width="440" height="92"/>
+  <text class="label" x="528" y="244">Public package scope</text>
+  <text class="value" x="528" y="279">RTL + test assets</text>
+  <text class="note" x="35" y="333">Implementation reports that depend on proprietary process collateral are intentionally not redistributed.</text>
+</svg>

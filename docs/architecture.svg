@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="310" viewBox="0 0 980 310" role="img" aria-label="1536-point FFT RTL architecture">
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .box { fill: #ffffff; stroke: #263238; stroke-width: 2; rx: 8; }
+      .mem { fill: #fff4d6; stroke: #8a6d1d; stroke-width: 2; rx: 8; }
+      .pipe { fill: #e6f2ff; stroke: #1f5f99; stroke-width: 2; rx: 8; }
+      .txt { font-family: Arial, Helvetica, sans-serif; fill: #17212b; font-size: 17px; }
+      .small { font-family: Arial, Helvetica, sans-serif; fill: #44515c; font-size: 13px; }
+      .title { font-family: Arial, Helvetica, sans-serif; fill: #17212b; font-size: 24px; font-weight: 700; }
+      .arrow { stroke: #263238; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#263238"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="980" height="310"/>
+  <text class="title" x="34" y="44">1536-Point Streaming FFT RTL</text>
+  <rect class="box" x="35" y="92" width="145" height="82"/>
+  <text class="txt" x="60" y="126">Input</text>
+  <text class="small" x="60" y="151">complex samples</text>
+  <rect class="mem" x="215" y="84" width="150" height="98"/>
+  <text class="txt" x="242" y="122">Input</text>
+  <text class="txt" x="242" y="146">reorder</text>
+  <text class="small" x="242" y="166">ping/pong memory</text>
+  <rect class="pipe" x="405" y="84" width="180" height="98"/>
+  <text class="txt" x="446" y="122">512-point</text>
+  <text class="txt" x="454" y="146">FFT core</text>
+  <text class="small" x="438" y="166">SDF pipeline stages</text>
+  <rect class="pipe" x="625" y="84" width="150" height="98"/>
+  <text class="txt" x="666" y="122">Radix-3</text>
+  <text class="txt" x="663" y="146">backend</text>
+  <text class="small" x="654" y="166">mixed-radix merge</text>
+  <rect class="mem" x="815" y="84" width="130" height="98"/>
+  <text class="txt" x="845" y="122">Output</text>
+  <text class="txt" x="843" y="146">order</text>
+  <text class="small" x="840" y="166">natural order</text>
+  <path class="arrow" d="M180 133 H210"/>
+  <path class="arrow" d="M365 133 H400"/>
+  <path class="arrow" d="M585 133 H620"/>
+  <path class="arrow" d="M775 133 H810"/>
+  <rect class="box" x="306" y="224" width="370" height="48"/>
+  <text class="small" x="333" y="253">Public release uses generic behavioral memory wrappers; foundry-specific macros and signoff collateral are excluded.</text>
+</svg>
