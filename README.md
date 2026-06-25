@@ -33,6 +33,19 @@ The latest public functional snapshot showed:
 Physical implementation and signoff reports are not redistributed because they
 depend on proprietary process collateral and licensed tool decks.
 
+## Report Figures
+
+The following figures were extracted from the project report and sanitized for
+public release. Pages or screenshots containing personal identifiers, local
+paths, foundry decks, or process-specific signoff details are intentionally not
+included.
+
+![Report architecture figure](docs/report_architecture.png)
+
+![Simulation result summary](docs/result_summary_console.png)
+
+![Waveform snapshot](docs/waveform_snapshot.png)
+
 ## Repository Layout
 
 ```text
